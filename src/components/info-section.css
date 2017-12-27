@@ -1,0 +1,32 @@
+/* Create a highlight keyframe */
+@keyframes section-highlight {
+    0% {
+      background: #9b1228;
+    }
+    100% {
+      background: none;
+    }
+  }
+
+.info-container {
+    margin: 0 auto;
+    width: 800px;
+}
+  
+  ol {
+    margin-bottom: 1rem;
+  }
+  
+  #what {
+    padding: 2rem;
+    font-size: 2em;
+  }
+  
+  #what:focus {
+    outline: 0;
+  }
+  
+  #what:target {
+    animation: section-highlight 3s;
+  }
+

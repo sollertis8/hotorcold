@@ -1,0 +1,15 @@
+h1 {
+    font-weight: 900;
+    font-size: 3em;
+    padding: 0.8em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .hot {
+      color: rgb(180, 25, 25);
+  }
+
+  .cold {
+      color: rgb(0, 174, 255);
+  }
